@@ -1,0 +1,64 @@
+<!-- 
+O objetivo deste exercício é criar um header e um footer para um site. O header deve incluir um menu de navegação com 8 itens diferentes, e o 
+footer deve conter um breve menu com pelo menos 3 itens. Ambos os menus devem ser criados usando elementos HTML semânticos apropriados.
+
+Feito   1. Crie um novo arquivo HTML e nomeie-o como "exercicio-header-footer-nav.html".
+Feito   2. Utilize a estrutura básica do HTML para criar uma nova página.
+Feito   3. Adicione um <header> à sua página.
+Feito   4. Dentro do <header>, inclua um elemento para o logotipo (que pode ser um texto simples) e um menu de navegação.
+Feito   5. O menu de navegação do header deve ter 8 itens. Você pode nomeá-los como quiser (por exemplo: Home, Sobre, Serviços, Portfólio, Blog, Contato, FAQ, Login).
+Feito   6. Adicione um <footer> à sua página. Lembrando que deve conter uma seção <main> com algum conteúdo.
+Feito   7. Dentro do <footer>, inclua um breve menu de navegação com pelo menos 3 itens (por exemplo: Política de Privacidade, Termos de Serviço, Contato).
+Feito   8. Use elementos HTML semânticos para estruturar ambos os menus.
+Feito   9. Adicione comentários explicando suas escolhas de elementos semânticos.
+
+-->
+<Doctype html>
+<html>
+
+<head>
+    <!-- Metadados (inforamções, links externos etc)-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Murillo Ferreira">
+    <title>Exercício do header</title>
+</head>
+<body>
+    <!--Iniciando e utilizando o header-->
+    <header>
+        <img src="https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="Imagem representativa de futura logo no tamanho de 200 pixels por 200 pixels">
+        <h2>Título do site</h2> <!-- Lista ordenada, logo com descrição para inclusão e título do site   -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--Dentro do conteudo principal do site eu decidi dar espaço para uma aba de sobre mim e meus serviços-->
+        <h2>Sobre Mim</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut nunc enim. Morbi lacus urna, venenatis in nulla eget, egestas mollis nulla. Curabitur aliquam a diam quis vehicula. Ut et ante id velit ultricies consectetur dignissim ut massa. Quisque porta varius dolor quis posuere. Ut commodo neque nulla, eget vehicula nulla tempor eget. Mauris vel massa metus. Morbi ornare purus molestie est sodales, et convallis tortor tempus. Curabitur tempor interdum orci at dignissim. Ut scelerisque euismod nulla, dapibus dignissim tortor consectetur vitae. In eget venenatis elit. Vivamus nunc odio, dapibus vitae varius sed, lobortis ut tortor. Mauris ante libero, ullamcorper sed rutrum ut, dictum eu velit.</p>
+        <h2>Meus serviços</h2>
+        <p>Mauris bibendum dignissim varius. Pellentesque a libero egestas, facilisis diam nec, elementum metus. Quisque sodales urna ut tellus pulvinar, a efficitur ante posuere. Nulla id efficitur sapien. Sed fringilla efficitur nibh non faucibus. Sed maximus quam eu erat sodales convallis. Nulla pellentesque nisl vitae lectus dapibus, eget convallis quam sollicitudin. Donec ullamcorper velit in dolor aliquet cursus. Phasellus hendrerit ante ac neque convallis pellentesque. Aliquam faucibus velit ut tellus posuere, vel pharetra eros fringilla. Cras leo leo, congue et lorem non, ultricies tristique nulla. Curabitur nec accumsan leo, nec maximus velit. Nunc quis pharetra lorem, ut laoreet purus. Sed vel tempor turpis, et fringilla purus.</p>
+    </main>
+
+    <footer>
+        <h4>Rodapé do Site</h4> <!--Utilizei o h4 para ser um letra bem pequena e após isso inseri uma lista navegavel dentro do footer-->
+        <nav>
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Serviço</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>    
+        </nav>
+    </footer>
+
+</body>
+</html>
+</Doctype>
