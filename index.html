@@ -1,0 +1,58 @@
+<!-- 
+Adicione as tags <meta> necessarias;
+Substitua as tags <div> por elementos HTML semânticos adequados, como <header>, <nav>, <main>, <article>, <section>, <aside> e <footer>;
+Mantenha o conteúdo dentro de cada <div> inalterado.
+Adicione comentários explicando por que você escolheu cada tag semântica em particular.  
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+     <!-- Metadados (informações, links externos) -->
+    <meta charset="UTF-8"> 
+    <meta name="author" content="Murillo Ferreira">
+    <title>Exercício de Correção de Divs</title>
+</head>
+
+<body>
+
+    <!-- Utilizarei o header para ser o cabeçalho-->
+<header> id="top-section"</header>
+        <div id="logo">Meu Site</div>
+ 
+    <!-- Utilizarei o nav para navegar no site -->
+    <nav arial-label="Navegação Principal"> 
+        <ul>
+          <li><a href="#">Home</a></li> <!--Navegação em lista-->
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+</header>
+
+<!-- Utilizarei o elemento <main> para representar o conteúdo principal da página. -->
+    <main id="main-content">
+        <!-- Utilizarei o elemento <section> para criar seções dentro do conteúdo principal. -->
+        <section id="left-column">
+            <!-- Utilizarei o elemento <article> para representar conteúdo independente que faz sentido por si só. -->
+            <article class="article">
+                <h1 class="title">Artigo 1</h1>
+                <p class="content">Este é o conteúdo do artigo 1.</p>
+            </article>
+        </section>
+        <!-- Utilizarei o elemento <aside> para representar conteúdo relacionado à seção principal. -->
+        <aside id="right-column">
+            <div class="sidebar-item">Item 1</div>
+            <div class="sidebar-item">Item 2</div>
+        </aside>
+    </main>
+
+
+    <footer id="bottom-section">
+       <p> Copyrith 2023 </p> 
+    </footer>
+
+</body>
+
+</html>
